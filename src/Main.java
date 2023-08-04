@@ -10,9 +10,17 @@ public class Main {
         int userChoice = scanner.nextInt();
         scanner.nextLine();
 
+        // IF ELSE statement
 
-        
-        System.out.println("Hai scelto il numero " + userChoice);
+        if (userChoice % 2 == 0) {
+
+            System.out.println("Il numero da te scelto (" + userChoice + ") è un numero pari!");
+
+        } else {
+           
+            System.out.println("Il numero da te scelto (" + userChoice + ") è un numero dispari!"); 
+
+        }
     
     }
 }
