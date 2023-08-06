@@ -6,12 +6,11 @@ public class Main {
         Scanner scanner = new Scanner(System.in);
 
         // Ask user a number
-        System.out.println("Ciao! Scegli un numero e ti dirò se è pari o dispari");
+        System.out.println("Ciao! Scegli un numero e ti dirò se è pari o dispari!");
         int userChoice = scanner.nextInt();
         scanner.nextLine();
 
         // IF ELSE statement
-
         if (userChoice % 2 == 0) {
 
             System.out.println("Il numero da te scelto (" + userChoice + ") è un numero pari!");
@@ -22,5 +21,6 @@ public class Main {
 
         }
     
+        scanner.close();
     }
 }
